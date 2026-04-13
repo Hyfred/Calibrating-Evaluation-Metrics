@@ -1,0 +1,9 @@
+# Configuration file for generating embeddings for QA datasets
+#bigbench
+# Select one of: bigbench, mathqa, mmlu, openbookqa, sciq, triviaqa, truthfulqa
+dataset_name: FineSurE              # <== change this to the dataset you're embedding
+prompt_name: ling1s-topk               # <== or another prompt variant if you have multiple versions
+qa_llm: mistral                       # <== or whichever model tag you used to generate the answers
+
+# Set to GPU index (e.g., 0) or -1 for CPU
+device: 0

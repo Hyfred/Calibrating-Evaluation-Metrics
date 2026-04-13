@@ -1,0 +1,35 @@
+processed_data_dir: processed_data
+max_depths:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+qa_llm: mistral
+judgement_llm: llama3.1
+prompt_name: ling1s-topk
+dataset_name: bigbench
+seeds:
+  - 42
+  - 2345
+  - 888
+  - 124
+  - 8181818
+  - 92929
+  - 11123
+  - 99087
+calibrators:
+  - none
+  - binning  
+  - scaling_v2
+  - scaling_binning
+  - beta_binning
+  - scaling_beta_binning
+  - hierarchical_scaling_beta_binning
+output_result_dir: results

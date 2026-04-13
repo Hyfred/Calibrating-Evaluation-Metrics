@@ -1,0 +1,5 @@
+qa_llm: mistral
+prompt_name: ling1s-topk
+dataset_name: bigbench
+max_no_samples: null
+seed: 42

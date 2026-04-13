@@ -1,0 +1,14 @@
+hydra-core==1.3.2
+hydra-colorlog==1.2.0
+hydra-optuna-sweeper==1.2.0
+black==24.4.2
+pandas
+scikit-learn
+matplotlib
+numpyro
+transformers
+torch
+num2words
+ollama
+datasets
+paretoset

@@ -1,0 +1,4 @@
+qa_llm: mistral
+prompt_name: ling1s-topk
+dataset_name: bigbench
+judgement_llm: llama3.1
