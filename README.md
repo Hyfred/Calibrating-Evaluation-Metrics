@@ -1,6 +1,5 @@
 # Calibrating Model-Based Evaluation Metrics for Summarization
 
----
 Code for the paper: Calibrating Model-Based Evaluation Metrics for Summarization.
 
 Tasks and entry points
